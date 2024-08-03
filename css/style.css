@@ -1,0 +1,730 @@
+:root {
+  --main-color: #0078ff;
+}
+.main-color
+{
+ background-color: var(--main-color)
+}
+header
+{
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center; 
+}
+header h1
+{
+    font-size: 4.3rem;
+    position: relative;
+}
+header p
+{
+ translate:  5rem 1rem ; 
+}
+header p::after
+{
+   
+    content: "";
+    color: white;
+    font-size: 36px;
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    1% {
+      content: " |";
+    }
+  
+    2% {
+      content: "D |";
+    }
+  
+    3% {
+      content: "De |";
+    }
+  
+    4% {
+      content: "Dev |";
+    }
+  
+    5% {
+      content: "Deve |";
+    }
+  
+    6% {
+      content: "Devel |";
+    }
+  
+    7% {
+      content: "Develo |";
+    }
+  
+    8% {
+      content: "Develop |";
+    }
+  
+    9% {
+      content: "Develope |";
+    }
+  
+    10% {
+      content: "Developer |";
+    }
+    11% {
+      content: "Developer |";
+    }
+    12% {
+      content: "Developer |";
+    }
+    13% {
+      content: "Developer |";
+    }
+    14% {
+      content: "Developer |";
+    }
+    15% {
+      content: "Developer |";
+    }
+  
+    16% {
+      content: "Develope |";
+    }
+  
+    17% {
+      content: "Develop |";
+    }
+  
+    18% {
+      content: "Develo |";
+    }
+  
+    19% {
+      content: "Devel |";
+    }
+  
+    20% {
+      content: "Deve |";
+    }
+  
+    21% {
+      content: "Dev |";
+    }
+  
+    22% {
+      content: "De |";
+    }
+  
+    23% {
+      content: "Des|";
+    }
+  
+    24% {
+      content: "Desi|";
+    }
+  
+    25% {
+      content: " Desig |";
+    }
+  
+    26% {
+      content: " Design |";
+    }
+    27% {
+      content: " Designe |";
+    }
+    28% {
+      content: " Designer |";
+    }
+    29% {
+      content: " Designer |";
+    }
+    40% {
+      content: " Designer |";
+    }
+    31% {
+      content: " Designer |";
+    }
+    32% {
+      content: " Designer |";
+    }
+    33% {
+      content: " Designer |";
+    }
+    34% {
+      content: " Designe |";
+    }
+    35% {
+      content: " Design |";
+    }
+    36% {
+      content: " Desig |";
+    }
+    37% {
+      content: " Desi |";
+    }
+    38% {
+      content: " Des |";
+    }
+    39% {
+      content: " De |";
+    }
+    40% {
+      content: " D |";
+    }
+    41% {
+      content: "  |";
+    }
+    42% {
+      content: "f  |";
+    }
+    43% {
+      content: "fr  |";
+    }
+    44% {
+      content: " fre |";
+    }
+    
+    45% {
+      content: "free |";
+    }
+    46% {
+      content: "freel  |";
+    }
+    47% {
+      content: "freela  |";
+    }
+    48% {
+      content: "freelan  |";
+    }
+    49% {
+      content: "freelanc|";
+    }
+    50% {
+      content: "freelance  |";
+    }
+    51% {
+      content: "freelancer  |";
+    }52% {
+      content: "freelancer  |";
+    }53% {
+      content: "freelancer  |";
+    }54% {
+      content: "freelancer  |";
+    }55% {
+      content: "freelancer  |";
+    }56% {
+      content: "freelancer  |";
+    }57% {
+      content: "freelancer  |";
+    }58% {
+      content: "freelancer  |";
+    }
+    59% {
+      content: "freelance  |";
+    }
+    60% {
+      content: "freelanc  |";
+    }
+    61% {
+      content: "freelan  |";
+    }
+    62% {
+      content: "freela  |";
+    }
+    63% {
+      content: "freel  |";
+    }
+    64% {
+      content: "free  |";
+    }
+    65% {
+      content: " fre |";
+    }
+    66% {
+      content: "fr  |";
+    }
+    67% {
+      content: "f  |";
+    }
+    68% {
+      content: "  |";
+    }
+    69% {
+      content: "p  |";
+    }
+    70% {
+      content: "ph  |";
+    }
+    71% {
+      content: "pho  |";
+    }
+    72% {
+      content: "phot  |";
+    }
+    73% {
+      content: "photo  |";
+    }
+    74% {
+      content: "photog  |";
+    }
+    75% {
+      content: "photogr  |";
+    }
+    76% {
+      content: "photogra  |";
+    }
+    77% {
+      content: "photograp  |";
+    }
+    78% {
+      content: "photograph  |";
+    }
+    79% {
+      content: "photographe |";
+    }
+    80% {
+      content: "photographer  |";
+    }81% {
+      content: "photographer  |";
+    }82% {
+      content: "photographer  |";
+    }83% {
+      content: "photographer  |";
+    }84% {
+      content: "photographer  |";
+    }85% {
+      content: "photographer  |";
+    }
+    86% {
+      content: "photographe  |";
+    }
+    87% {
+      content: "photograph  |";
+    }
+    88% {
+      content: "photograp  |";
+    }
+    89% {
+      content: "photogra  |";
+    }
+    90% {
+      content: "photogr |";
+    }
+    91% {
+      content: "photog  |";
+    }
+    92% {
+      content: "phot  |";
+    }
+    93% {
+      content: "pho |";
+    }
+    94% {
+      content: "ph  |";
+    }
+  
+    95% {
+      content: "p  |";
+    }
+  
+    96% {
+      content: "  |";
+    }
+    97% {
+      content: "  |";
+    }
+    98% {
+      content: "  |";
+    }
+    99% {
+      content: "  |";
+    }
+    100% {
+      content: "  |";
+    }
+  }
+  /* ................................... */
+  .progress, .progress-stacked 
+  {
+    border-radius: 0px;
+  }
+  .person-info img
+  {
+    border-radius: 10px;
+  }
+  .progress-bar
+  {
+    text-align: start;
+   
+  }
+  .progress-bar>*
+  {
+    padding-left: 0px;
+  }
+  .progress-bar span
+  {
+    margin-bottom: 0.8rem;
+  }
+  #about
+  {
+    padding-top: 4rem;
+    background-color: #eee;
+  }
+  .about-right h2
+  {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .about-right h2::after
+  {
+    content: "";
+    width: 60%;
+    position: absolute;
+    height: 2px;
+    background-color: var(--main-color);
+    left: 0;
+    bottom: -0.25rem;
+  }
+  .box-shadow
+  {
+    padding: 3rem;
+    background-color: white;
+   box-shadow:  0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  }
+  .box-shadow .row>.about-left
+  {
+    padding-left: 0px;
+  }
+  .progress-h
+  {
+    height: 0.7rem;
+  }
+  .services-content >*
+  {
+    padding: 20px;
+  }
+  .circle-icon
+  {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px var(--main-color);
+    padding: 3rem;
+    transition: all 0.5s ease  ;
+   
+  }
+  .circle-icon:hover 
+  {
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    box-shadow:  0 0 0 10px #cde1f8;
+  }
+  .circle-icon i
+  {
+    font-size: 2rem;
+   
+  }
+  .box-content >*
+  {
+    margin-bottom: 20px;
+    
+  }
+  #services .row >*
+  {
+    padding: 12px;
+  
+  }
+  #services
+  {
+    background-color: #eee;
+  }
+  
+  
+.section-title h2
+{
+ font-size: 50px;
+}
+.section-title p::after
+{
+  content: "";
+  position: absolute;
+  width: 3%;
+  height: 5px;
+  background-color: var(--main-color);
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* .............................. */
+ #counter
+ {
+  background-image: url(../img/counters-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position :relative;
+ } 
+ .layer
+ {
+  background-color: var(--main-color);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.7;
+ 
+ }
+ #counter .row>*
+ {
+  padding: 20px;
+ }
+ .counter-circle
+  {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 10px solid white;
+    padding: 25px;
+  
+   
+  }
+
+  .counter-circle i
+  {
+    font-size: 25px;
+    
+  }
+  .counter-content
+  {
+    color: white;
+   
+   
+  }
+
+  /* ........................ */
+  .portfolio-content
+  {
+   
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  }
+  .portfolio-content span
+  {
+    color: var(--main-color);
+  }
+
+  .con-img 
+  {
+    overflow: hidden;
+    
+  }
+  .con-img img
+  {
+    transition: all 1s ;
+  }
+  .portfolio-content:hover .con-img img
+  {
+    transform: scale(1.25,1.25);
+   
+  }
+#portfolio .row i
+  {
+    color: var(--main-color);
+
+  }
+  #portfolio .container .row>*
+  {
+    padding-bottom: 20px;
+  }
+  /* ................................ */
+  #testimonial
+  {
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position :relative;
+  }
+.carousel-item>*
+{
+  padding: 15px;
+}
+#testimonial .carousel-indicators [data-bs-target]{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  
+}
+.carousel-card>*
+{
+  margin-bottom: 2rem;
+}
+.small-img
+{
+  width: 40px;
+  height: 40px;
+}
+.blog-control
+{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog a 
+{
+text-decoration: none;
+color: black;
+}
+.card-img
+{
+  position: relative;
+ 
+}
+.card-img img
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-img::after
+{
+  content: var(--custom-content,"");
+  position: absolute;
+  color: white;
+  background-color: var(--main-color);
+  width: 18% ;
+  height: 40px;
+  border-radius: 10px;
+  right: 50%;
+  top: 100%;
+  transform: translate(50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-img.content-1::after
+{
+  --custom-content:"Travel";
+
+}
+.card-img.content-2::after
+{
+  --custom-content:"web-design";
+  width: 25%;
+
+}
+
+.blog
+{
+  
+  background-color: #eee;
+}
+.blog-card
+
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* ................................ */
+
+.form-control
+{
+  border-radius: 0px;
+  border: 1px solid #ced4da;
+}
+.contact button[type="submit"] 
+{
+  padding: 10px 24px;
+  border-radius: 5rem;
+}
+.contact h2
+{
+  width: fit-content;
+  position: relative;
+
+}
+.contact h2::after
+{
+content: "";
+position: absolute;
+width: 100px;
+height: 3px;
+background-color: var(--main-color);
+left: -4px;
+bottom: -50%;
+transform: translateX(10px);
+}
+.list-icons li
+{
+  list-style-type: none;
+}
+.contact .icon i
+{
+  transition: all 0.5s ease;
+  font-size: 20px;
+}
+
+.icon
+{
+  
+  /* background-color: transparent ; */
+  border: 3px solid var(--main-color);
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease;
+}
+.icon:hover.icon 
+{
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  box-shadow:  0 0 0 3px #cde1f8;
+}
+.icon:hover.icon i
+{
+  color: white;
+}
+.list-icons ul>*
+{
+  margin: 7px;
+}
+.list-icons li i
+{
+  color: var(--main-color);
+}
+
+.contact
+{ 
+  background-color: #eee;
+   background-image: url(../img/overlay-bg.jpg);
+  background-size:cover ;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/* ....................................... */
+#footer {
+  color: #fff;
+  padding: 25px 0;
+
+}
+.up-down a
+{
+  text-decoration: none;
+}
+.up-down
+{
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate();
+}
+
